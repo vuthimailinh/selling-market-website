@@ -7,7 +7,8 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "npx tsc",
         "start": "node dist/index.js",
-        "dev": "nodemon index.ts"
+        "dev": "nodemon index.ts",
+        "json": "json-server --watch user.json"
     },
     "author": "",
     "license": "ISC",
@@ -24,6 +25,7 @@
         "express": "^4.19.1",
         "express-jwt": "^8.4.1",
         "helmet": "^7.1.0",
+        "json-server": "^1.0.0-alpha.23",
         "jsonwebtoken": "^9.0.2",
         "mongodb": "^6.5.0",
         "mongoose": "^8.2.3",
